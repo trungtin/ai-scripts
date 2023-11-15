@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "openai-assistant-scripts"
+version = "0.1.0"
+description = "Scripts to interact with OpenAI Assistant API"
+authors = ["Trung Tin <trungtindev@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
